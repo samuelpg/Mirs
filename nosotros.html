@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mirs</title>
+        <!-- favicon -->
+        <!-- <link rel="icon" href="asset/images/icons/favIcon.ico" type="image/x-icon"> -->
+        <!--styles-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="assets/styles/style.css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="local/jquery-3.2.1.js" defer></script>
+        <script type="text/javascript" src="js/materialize.min.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/app.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/email.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/language.js" defer></script>
+    </head>
+    <body>
+        <!-- Menu -->
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper white center">
+                        <a href="index.html" class="logo">
+                                <img src="assets/images/icons/capa-4.png"
+                                srcset="assets/images/icons/capa-4@2x.png 2x,
+                                        assets/images/icons/capa-4@3x.png 3x"
+                                >
+                        </a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                        <ul class="right hide-on-med-and-down links black-text">
+                            <!-- es -->
+                            <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                            <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                            <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                            <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                            <!-- en -->
+                            <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                            <li class="r en"><a href="servicios.html" class="en">Services</a></li>
+                            <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                            <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+                        </ul>
+                    </div>
+                    <div class="rainbow"></div>
+                </nav>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+                <!-- es -->
+                <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                <!-- en -->
+                <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                <li class="r en"><a href="servicios.html" class="en">Servicess</a></li>
+                <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+            </ul>
+        </header>
+        <main>
+            <!-- Banner -->
+            <section class="banner nosotros content ">
+                <div class="banner-content banner-flex">
+                    <div class="nosotros-text">
+                        <p class="white-text banner-title es">¿Quienes somos?</p>
+                        <p class="white-text banner-paragraph es">Somos una empresa de servicios con un personal altamente calificado en proveer soluciones integrales al sector de energía</p>
+                        <p class="en white-text banner-title">Who we are</p>
+                        <p class="en white-text banner-paragraph">We are a service oriented enterprise with expert personnel in providing integral solutions to the energy industry</p>
+                    </div><br>
+                    <div class="nosotros-text">
+                        <p class="white-text es banner-title">Misión</p>
+                        <p class="white-text es banner-paragraph">Nuestra misión es ser una organización de servicios enfocada en proveer soluciones integrales al mercado de energía a través del uso de tecnologías especializadas</p>
+                        <p class="en white-text banner-title">Mission</p>
+                        <p class="en white-text banner-paragraph">Our mission is to be a focused organization on providing integral solutions services to the energy industry through specialized technologies.</p>
+                    </div><br>
+                    <div class="nosotros-text">
+                        <p class="white-text es banner-title">Visión</p>
+                        <p class="white-text es banner-paragraph">Nuestra visión es convertirnos en una diligente organización basada en valores y conocimientos que nos lleve a la aplicación de modelos y negocios sustentables</p>
+                        <p class="en white-text banner-title">Vision</p>
+                        <p class="en white-text banner-paragraph">We envision ourselves becoming an effective/efficient organization based on knowledge and values to apply sustainable business models in the market</p>
+                    </div><br>
+                </div>
+            </section>
+            <section class="section-height">
+                    <div class="section-content">
+                        <p class="section-title black-text es">Objetivos</p>
+                        <p class="section-title black-text en">We are acknowledged for</p>
+                        <div class="section-flex">
+                            <div class="icon-text nosotros-icons">
+                                <img src="assets/images/icons/4.svg">
+                                <p class="es">
+                                    Impulsar conocimientos especializados                                        
+                                </p>
+                                <p class="en">
+                                    Motivate knowledge on specialized technologies                                         
+                                </p>
+                            </div>
+                            <div class="icon-text nosotros-icons">
+                                <img src="assets/images/icons/5.svg">
+                                <p class="es">
+                                    Proyectar eficiencia organizacional
+                                </p>
+                                <p class="en">
+                                    Demonstrate organizational efficiency
+                                </p>
+                            </div>
+                            <div class="icon-text nosotros-icons">
+                                <img src="assets/images/icons/6.svg">
+                                <p class="es">
+                                   Desarrollar modelos de negocios sustentables  
+                                </p>
+                                <p class="en">
+                                    Develop new sustainable business models. 
+                                </p>
+                            </div>
+                            <div class="icon-text nosotros-icons">
+                                <img src="assets/images/icons/7.svg">
+                                <p class="es">
+                                      Innovar tecnologías aplicables al sector energético        
+                                </p>
+                                <p class="en">
+                                    Introduce new applied technologies on the energy industry  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer>
+                <span>
+                    <img src="assets/images/icons/capa-4-copia.png"
+                    srcset="assets/images/icons/capa-4-copia@2x.png 2x,
+                            assets/images/icons/capa-4-copia@3x.png 3x"
+                    class="Capa-4-copia">
+                </span>
+                <p class="es white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, Todos los derechos reservados
+                </p>
+                <p class="en white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, All rights reserved
+                </p>
+        </footer>
+    </body>
+</html>

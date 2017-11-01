@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mirs</title>
+        <!-- favicon -->
+        <!-- <link rel="icon" href="asset/images/icons/favIcon.ico" type="image/x-icon"> -->
+        <!--styles-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="assets/styles/style.css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="local/jquery-3.2.1.js" defer></script>
+        <script type="text/javascript" src="js/materialize.min.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/app.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/email.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/language.js" defer></script>
+    </head>
+    <body>
+        <!-- Menu -->
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper white center">
+                        <a href="index.html" class="logo">
+                                <img src="assets/images/icons/capa-4.png"
+                                srcset="assets/images/icons/capa-4@2x.png 2x,
+                                        assets/images/icons/capa-4@3x.png 3x"
+                                >
+                        </a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                        <ul class="right hide-on-med-and-down links black-text">
+                            <!-- es -->
+                            <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                            <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                            <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                            <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                            <!-- en -->
+                            <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                            <li class="r en"><a href="servicios.html" class="en">Services</a></li>
+                            <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                            <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+                        </ul> 
+                    </div>
+                    <div class="rainbow"></div>
+                </nav>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+                <!-- es -->
+                <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                <!-- en -->
+                <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                <li class="r en"><a href="servicios.html" class="en">Servicess</a></li>
+                <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+              </ul> 
+        </header>
+        <main>
+            <!-- Banner -->
+            <section class="banner services content ">
+                <div class="banner-content">
+                    <p class="white-text banner-title es">
+                        Ofrecemos soluciones integrales al sector energético mediante la dotación de personal capacitado y tecnologías especializadas                            
+                    </p>
+                    <p class="white-text banner-title en">
+                        We offer integral solutions for industrial facilities on upstream, midstream and downstream processes through providing qualified personnel and specialized technologies
+                    </p>
+                </div>
+            </section>
+            <!-- seccion ensayos -->
+            <section class="ensayos" >
+                <div>
+                    <div class="tools">
+                        <img src="assets/images/icons/group1.png"
+                        srcset="assets/images/icons/group1@2x.png 2x,
+                                assets/images/icons/group1@3x.png 3x"
+                        class="Group">
+                    </div>
+                    <div class="ensayos-text">
+                        <p class="black-text es section-title">Ensayo de Materiales</p>
+                        <p class="black-text en section-title">Materials testing</p>
+                        <div class="ensayos-list">
+                            <ul class="a section-justify">
+                                <li class="es li-item">Ensayos metalográficos</li>
+                                <li class="es li-item">Ensayos mecánicos</li>
+                                <li class="es li-item">Ensayos a altas temperaturas</li>
+                                <li class="es li-item">Análisis forenses</li>
+
+                                <li class="en li-item">Metallographic testing/analysis</li>
+                                <li class="en li-item">Mechanical testing</li>
+                                <li class="en li-item left-align">High temperature testing/capabilities</li>
+                                <li class="en li-item">Forensic Analysis</li>
+                            </ul>
+                            <ul class="a section-justify">
+                                <li class="es li-item">Caracterización y mitigación de corrosión, fractura, fatiga y agrietamiento ambiental, mecánica de la fractura, fallas por desgaste prueba y evaluación de soldaduras, caracterización completa de metales, pandeo y termofluencia</li>
+                                <li class="en li-item">Corrosion measures, environmental cracking, fracture and stress, fracture mechanics, failures for wear measurement and weld testing, complete characterization of metals, buckling and creep.</li>    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- seccion ingenieria -->
+            <section class="ensayos ingenieria">
+                <div>
+                    <div class="ensayos-text">
+                        <p class="white-text section-title es">Evalucion de ingenieria</p>
+                        <p class="white-text section-title en">Engineering evaluations</p>
+                        <div class="ensayos-list-left white-text">
+                            <ul class="a section-justify evaluacion-ingenieria">
+                                <li class="es li-item">Análisis de esfuerzos</li>
+                                <li class="es li-item">Análisis de fatiga</li>
+                                <li class="es li-item left-align">Cálculo de vida Remanente</li>
+                                <li class="en li-item">Stress-Strain analysis</li>
+                                <li class="en left-align li-item">Remaining life assessment</li>
+                                <li class="en li-item">Vibration Analysis</li>
+                            </ul>
+                            <ul class="a section-justify evaluacion-ingenieria">
+                                <li class="es li-item">Análisis de Vibraciones</li>
+                                <li class="es li-item">Análisis estructurales</li>
+                                <li class="es li-item">Predicción de crecimiento de grietas</li>
+                                <li class="en li-item">Structural Analysis</li>
+                                <li class="en li-item">Crack growth prediction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tools clip">
+                            <img src="assets/images/icons/group2.png"
+                            srcset="assets/images/icons/group2@2x.png 2x,
+                                    assets/images/icons/group2@3x.png 3x"
+                            class="Group">
+                    </div>
+                </div>
+            </section>
+            <section class="ensayos" >
+                    <div>
+                        <div class="tools glass">
+                            <img src="assets/images/icons/group.png"
+                            srcset="assets/images/icons/group@2x.png 2x,
+                                    assets/images/icons/group@3x.png 3x"
+                            class="Group">
+                        </div>
+                        <div class="ensayos-text">
+                            <p class="black-text section-title es">Servicios de campo</p>
+                            <p class="black-text section-title en">Field Services</p>
+                            <div class="ensayos-list">
+                                <ul class="a section-justify">
+                                    <li class="es li-item">Emisiones acústicas</li>
+                                    <li class="es li-item left-align">Toma de muestras (Scoop Samples)</li>
+                                    <li class="es li-item">Escaneo láser</li>
+                                    <li class="en li-item">Acoustic emission testing</li>
+                                    <li class="en li-item left-align">Sampling (Scoop Samples)</li>
+                                    <li class="en li-item">Laser Scanning</li>
+                                </ul>    
+                                <ul class="a section-justify">
+                                    <li class="es li-item">Sistemas de monitoreo continuo (Medición de esfuerzo y temperatura)</li>
+                                    <li class="es li-item">Monitoreo de vibraciones</li>    
+                                    <li class="es li-item">Ultrasonido</li>    
+                                    <li class="en li-item">Continuous monitoring of temperature and effort/ Continuous tracking of temperature and effort</li>
+                                    <li class="en li-item">Condition Monitoring</li>    
+                                    <li class="en li-item">Ultrasonic sensors</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer>
+                <span>
+                    <img src="assets/images/icons/capa-4-copia.png"
+                    srcset="assets/images/icons/capa-4-copia@2x.png 2x,
+                            assets/images/icons/capa-4-copia@3x.png 3x"
+                    class="Capa-4-copia">
+                </span>
+                <p class="es white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, Todos los derechos reservados
+                </p>
+                <p class="en white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, All rights reserved
+                </p>
+        </footer>
+    </body>
+</html>

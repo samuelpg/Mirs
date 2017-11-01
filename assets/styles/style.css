@@ -1,0 +1,525 @@
+/*ROBOTO */
+@font-face {
+    font-family: roboto;
+    src: url("../../fonts/roboto/Roboto-Regular.woff");
+}
+a, p, h1, h2, h3, button{
+    font-family: "roboto";
+}
+/*lenguajes*/
+.es{
+    display: inherit;
+}
+.en{
+    display: none;
+}
+/* paginas */
+nav{
+    height: 70px !important;
+    line-height: 70px !important;
+}
+nav .button-collapse i {
+    height: 70px !important;
+    line-height: 70px !important;
+}
+.navbar-fixed{
+    height: 70px;
+}
+.button-collapse{
+    height: 70px !important;
+    line-height: 70px !important;
+}
+.rainbow{
+    background-image: linear-gradient(to right, #3ea07f, #88b829 26%, #fae515 50%, #ce6f29 73%, #b82425);
+    height: 4px;
+}
+.black-text{
+    color: #515050 !important;
+}
+.white-text{
+    color: white;
+}
+p{
+    margin: 0px;
+}
+.logo{
+    height: 46px;
+    display: inline-block;
+    margin: 0px;
+    padding-right: 60px;
+}
+.logo > img{
+    height: 100%;
+    vertical-align: middle
+}
+/*footer*/
+footer{
+    height: 150px;
+    background-color: #4d4d4c;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+footer > span > img{
+    height: 46px;
+}
+/*home*/
+.home{
+    background-image: url("../../assets/images/banners/capa-10@3x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.experiencia{
+    background-image: url("../../assets/images/banners/Imagen 2.jpg");
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.experiencia > div > div{
+    margin-right: 10px;
+}
+.experiencia > div.section-div-vertical > div > p{
+    margin: 10px 0px;
+}
+.negritas{
+    font-weight: bold;
+}
+.banner{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content{
+    max-width: 85%;
+    text-align: center;
+}
+.banner-title{
+    font-size: 22px;
+    text-shadow: 1.6px 2.5px 3px rgba(0, 0, 0, 0.72);
+}
+.line{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+}
+.banner-paragraph{
+    font-size: 16px;
+    text-shadow: 1.6px 2.5px 3px rgba(0, 0, 0, 0.72);
+}
+.banner-button{
+    padding: 10px 45px;
+    border-radius: 50px;
+    border: 3px solid white;
+    font-size: 16px;
+    margin: 10px auto;
+    background: none;
+}
+.banner-button:focus{
+    background: none;
+}
+/* servicios */
+.services{
+    background-image: url("../../assets/images/banners/capa-101@3x.jpg");
+    background-position-x: center;
+}
+ul.a > li {
+    list-style-type: circle !important;
+    font-size: 20px;
+}
+.ensayos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 60px;
+    text-align: center;
+}
+.tools > img{
+    width: 25%;
+    max-width: 100px;
+}
+.section-title{
+    font-size: 22px;
+}
+.section-justify{
+    text-align: justify;
+    margin: 0px;
+}
+.section-justify > li{
+    padding: 5px 0px;
+    font-size: 18px
+}
+.ingenieria{
+    background-color: #4d4d4c;
+}
+.ingenieria > div{
+    display: flex;
+    flex-direction: column;
+}
+.clip{
+    order: -1;
+}
+.glass > img{
+    max-width: 70px;
+}
+.li-item{
+    display: list-item;
+}
+/* nosotros */
+.banner-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.nosotros{
+    background-image: url("../../assets/images/banners/Imagen 3.jpg");
+    height: 600px !important;
+    background-position-x: center;
+}
+.nosotros-icons{
+    padding: 20px;
+}
+.nosotros-text {
+    margin-bottom: 10px;
+}
+/* section */
+.section-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+} 
+.section-content > div{
+    max-width: 80%;
+    margin-top: 15px;
+}
+.section-content > p{
+    font-size: 16px;
+}
+.icon-text{
+    padding: 10px 0px;
+    font-size: 16px;
+}
+/*Contacto */
+.contacto-banner{
+    background-image: url("../../assets/images/banners/Imagen 5.jpg")
+}
+.section-map > iframe {
+    width: 100%;
+}
+.section-div-horizontal {
+    display: flex;
+    flex-direction: column;
+}
+.section-div-vertical{
+    display: flex;
+    flex-direction: column;
+}
+form .contacto-field{
+    border: white 3px solid;
+    position: relative;
+    border: white 3px solid;
+    height: 66px;
+    background-color: #bababa;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+form .contacto-field .contacto-img{
+    margin-left: -1px;
+    width: 61px;
+}
+
+form .contacto-field .contacto-input{
+    position: absolute;
+    height: 4rem;
+    width: 78%;
+    margin: 0 0 0 10px;
+    border-bottom: none;
+}
+
+form .contacto-field .contacto-input:focus{
+    border-bottom: none !important;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.send-btn{
+    border-radius: 50px;
+    height: 48px;
+    width: 144px;
+}
+
+span.send-btn{
+    padding: 15px
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+input::-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+input::-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.mensaje{
+    width: 100% !important;
+    margin-left: 0% !important;
+}
+#gform > div {
+    margin-bottom: 25px;
+}
+.form-button{
+    border-color: #4d4d4c;
+    color: #4d4d4c
+}
+.form-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.material-icons{
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+}
+/* pantallas mas grandes */
+/* tablet */
+@media screen and (min-width:601px){
+    .logo{
+        float: none;
+    }
+    /*home*/
+    .banner-title{
+        font-size: 26px;
+    }
+    .banner-paragraph{
+        font-size: 18px;
+    }
+    .banner-button{
+        font-size: 18px;
+    }
+    .experiencia > div > div{
+        width: 50%;
+    }
+    /*servicios */
+    .ensayos > div{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .ensayos-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .ensayos-list > ul{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ensayos-list-left.white-text{
+        display: flex;
+    }
+    .ensayos-list-left.white-text > ul {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .ensayos-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-div-vertical{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ensayos.ingenieria > div > div > div > ul {
+        padding-right: 59px;
+    }
+    p{
+        font-size: 18px;
+    }
+    /*nosotros*/
+    .nosotros{
+        height: 500px !important;
+    }
+}
+/* desktop */
+@media screen and (min-width:993px){
+    /* navbar */
+    nav{
+        height: 94px !important;
+    }
+    p, li{
+        font-size: 18px;
+    }
+    .logo{
+        width: 160px;
+        height: 56px;
+        margin: 0px;
+        padding-top:23px;
+        padding-left:39px;
+        float: left;
+    }
+    .logo > img{
+        height: inherit;
+        vertical-align: inherit;
+    }
+    .links > li{
+        margin-top: 40px;
+        padding: 0px 20px;
+        color: #515050;
+    }
+    .links > li > a{
+        color: #515050;
+        font-size: 16px;
+        line-height: 16px !important;
+    }
+    .links > li > a:hover{
+        background-color: white !important;
+    }
+    .r{
+        border-right: 2px solid;
+        border-color: #515050;
+    }
+    .navbar-fixed{
+        height: 97px !important;
+    }
+    /* footer */
+    footer > span > img{
+        height: 56px;
+    }
+    /* home banner*/
+    .banner{
+        height: 670px;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-paragraph{
+        font-size: 24px;
+    }
+    .banner-button{
+        font-size: 22px;
+    }
+    .section-height{
+        height: 730px;
+    }
+    .section-flex{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        max-width: 1000px !important;
+    }
+    .section-content{
+        height: 100%;
+    }
+    .section-content > p{
+        font-size: 18px;
+    }
+    .icon-text{
+        max-width: 30%;
+        font-size: 18px;
+    }
+    .icon-text > img{
+        height: 147px;
+    }
+    .section-content > div{
+        max-width: 100%;
+    }
+    .section-flex{
+        align-items: flex-start;
+    }
+    /* servicios */
+    .tools > img{
+        max-width: 257px;
+        width: 100%;
+    }
+    .tools{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ensayos > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1200px;
+    }
+    .ensayos-list > li{
+        padding: 0px;
+    }
+    .ensayos-list{
+        padding-left: 100px;
+    }
+    .ensayos-list-left{
+        padding-right: 100px;
+    }
+    .clip > img{
+        max-width: 155px;
+    }
+    .clip{
+        order: 1;
+    }
+    .glass > img{
+        max-width: 159px;
+    }
+    .section-title {
+        font-size: 32px !important;
+    }
+    .evaluacion-ingenieria{
+        padding-right: 100px;
+    }
+    /*nosotros*/
+    .banner-flex{
+        flex-direction: row;
+    }
+    .nosotros-text > .banner-title{
+        font-size: 24px;
+    }
+    .nosotros-text > .banner-paragraph{
+        font-size: 20px;
+    }
+    .nosotros-text{
+        width: 30%;
+        max-width: 390px;
+    }
+    .nosotros-icons{
+        padding: 20px;
+    }
+    .form-div-horizontal {
+        flex-direction: row;
+    }
+    /* contacto */
+    .mensaje {
+        width: 83.3333% !important;
+        margin-left: 8.333333% !important;
+    }
+    .section-div-vertical{
+        display: flex;
+        flex-direction: row;
+    }
+    /*experiencia*/
+    .experiencia{
+        padding: 60px;
+    }
+}

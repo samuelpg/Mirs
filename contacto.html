@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mirs</title>
+        <!-- favicon -->
+        <!-- <link rel="icon" href="asset/images/icons/favIcon.ico" type="image/x-icon"> -->
+        <!--styles-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="assets/styles/style.css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="local/jquery-3.2.1.js" defer></script>
+        <script type="text/javascript" src="js/materialize.min.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/app.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/email.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/language.js" defer></script>
+    </head>
+    <body>
+        <!-- Menu -->
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper white center">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/icons/capa-4.png"
+                            srcset="assets/images/icons/capa-4@2x.png 2x,
+                                    assets/images/icons/capa-4@3x.png 3x">
+                        </a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                        <ul class="right hide-on-med-and-down links black-text">
+                            <!-- es -->
+                            <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                            <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                            <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                            <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                            <!-- en -->
+                            <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                            <li class="r en"><a href="servicios.html" class="en">Services</a></li>
+                            <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                            <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+                        </ul>
+                    </div>
+                    <div class="rainbow"></div>
+                </nav>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+                <!-- es -->
+                <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                <!-- en -->
+                <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                <li class="r en"><a href="servicios.html" class="en">Servicess</a></li>
+                <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+            </ul>
+        </header>
+        <main>
+            <!-- Banner -->
+            <section class="banner contacto-banner content ">
+                <div class="banner-content">
+                    <p class="banner-title white-text es">
+                        Ubicación
+                    </p>
+                    <p class="banner-title white-text en">
+                        Ubication
+                    </p>
+                    <p class="banner-paragraph white-text es">
+                        Oficina Principal: 1802 Snake RiverRd Suite A Katy, TX 77449 <br>
+                        Oficina de Soporte: Av. Principal Lechería, Centro Empresarial Lechería, Oficina 205. CP: 6016. Anzoátegui, Venezuela                        
+                    </p>
+                    <p class="banner-paragraph white-text en">
+                        Main office: 1802 Snake RiverRd Suite A Katy, Tx 77449 <br>
+                        Local Support Office: Main Avenue of Lechería, Business Center Lecherías, office
+                        205. Lecherias 06016. Anzoátegui, Venezuela
+                        
+                    </p>
+                    <span class="line" style="width:290px;"></span>
+                    <p class="banner-title white-text es">
+                        Contacto
+                    </p>
+                    <p class="banner-title white-text en">
+                        Contact
+                    </p>
+                    <p class="banner-paragraph white-text es">
+                        Correo electrónico:sales@mirs-lat.com <br>
+                        Teléfono: +1 517 980-3433                        
+                    </p>
+                    <p class="banner-paragraph white-text en">
+                        Email: sales@mirs-lat.com <br>
+                        Phone: +1 517 980-3433                        
+                    </p>
+                </div>
+            </section>
+            <!-- mapa -->
+            <section class="section-map">
+                <iframe src="https://www.google.com/maps/d/embed?mid=13VSH8J8Xx7en-qzTuPPSZUJcymo" width="640" height="480"></iframe>
+            </section>
+            <!-- formulario -->
+            <section>
+                <div id="Contacto" class="section contacto gris valign-wrapper">
+                    <div class="container">
+                        <div class="row non-separation white-text">
+                            <div class="col s12 center-align">
+                                <p class="es black-text section-title">Comunicate con nosotros</p>
+                                <p class="en black-text section-title">Contact Us</p><br>
+                            </div>
+                            <div class="col s12 section separation-2">
+                                <div>
+                                    <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycby-KCv5orEa5rZp76giIAkDfbMcGPSLBlAe3l5-57EdsazOHkAD/exec">
+                                        <div class="col s12 m6 l5 offset-l1 left separation-1">
+    
+                                            <div class="contacto-field ">
+                                                <img class="contacto-img" src="assets/images/icons/contact-name.png">
+                                                <input class="contacto-input" id="NombreyApellido" name="name" type="text" placeholder="Nombres y Apellidos">
+    
+                                            </div>                                          
+                                        </div>
+                                        <div class="col s12 m6 l5 right pull-l1 separation-1">
+                                            <div class="contacto-field ">
+                                                <img class="contacto-img" src="assets/images/icons/contact-cel.png">
+                                                <input class="contacto-input" id="Telefono" name="cellphone" type="text" placeholder="Telefono">
+    
+                                            </div>    
+                                        </div>
+                                        <div class="col s12 m6 l5 offset-l1 left separation-1">
+                                            <div class="contacto-field">
+                                                <img class="contacto-img" src="assets/images/icons/contact-email.png">
+                                                <input class="contacto-input" id="Email" name="email" type="email" placeholder="Email">
+                                        </div>
+    
+                                        </div>
+                                        <div class="col s12 m6 l5 right pull-l1 separation-1">
+                                            <div class="contacto-field ">
+                                                <img class="contacto-img" src="assets/images/icons/contact-emp.png">
+                                                <input class="contacto-input" id="Empresa" name="company" type="text" placeholder="Empresa">
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m6 offset-m3 l4 offset-l4 separation-1 mensaje">
+                                            <div class="contacto-field ">
+                                                <img class="contacto-img" src="assets/images/icons/contact-mess.png">
+                                                <input class="contacto-input" id="Mensaje" name="message" type="text" placeholder="Mensaje">
+                                            </div>                                            
+                                        </div>
+                                        <div class="col s12 center-align separation-2 relative">
+                                            <button id="sendMail" name="submit" class="banner-button form-button" type="submit">
+                                                Enviar
+                                            </button>
+                                            <div class="col s12 m12 l12">
+                                                <span id="sent" class="grey darken-4 banner-button white-text hideb valign-wrapper">Mensaje enviado</span>
+                                                <span id="fill" class="grey darken-4 banner-button white-text hideb-2 valign-wrapper">Rellene los campos</span>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <span>
+                    <img src="assets/images/icons/capa-4-copia.png"
+                    srcset="assets/images/icons/capa-4-copia@2x.png 2x,
+                            assets/images/icons/capa-4-copia@3x.png 3x"
+                    class="Capa-4-copia">
+                </span>
+                <p class="es white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, Todos los derechos reservados
+                </p>
+                <p class="en white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, All rights reserved
+                </p>
+        </footer>
+    </body>
+</html>

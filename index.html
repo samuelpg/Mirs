@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mirs</title>
+        <!-- favicon -->
+        <!-- <link rel="icon" href="asset/images/icons/favIcon.ico" type="image/x-icon"> -->
+        <!--styles-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="assets/styles/style.css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="local/jquery-3.2.1.js" defer></script>
+        <script type="text/javascript" src="js/materialize.min.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/app.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/email.js" defer></script>
+        <script type="text/javascript" src="assets/scripts/language.js" defer></script>
+    </head>
+    <body>
+        <!-- Menu -->
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper white center">
+                        <a href="index.html" class="logo">
+                                <img src="assets/images/icons/capa-4.png"
+                                srcset="assets/images/icons/capa-4@2x.png 2x,
+                                        assets/images/icons/capa-4@3x.png 3x"
+                                >
+                        </a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                        <ul class="right hide-on-med-and-down links black-text">
+                            <!-- es -->
+                            <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                            <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                            <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                            <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                            <!-- en -->
+                            <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                            <li class="r en"><a href="servicios.html" class="en">Services</a></li>
+                            <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                            <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+                        </ul>
+                    </div>
+                    <div class="rainbow"></div>
+                </nav>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+                <!-- es -->
+                <li class="r es"><a href="nosotros.html" class="es">Quiénes somos</a></li>
+                <li class="r es"><a href="servicios.html" class="es">Servicios</a></li>
+                <li class="r es"><a href="contacto.html" class="es">Contactos</a></li>
+                <li class="es"><a href="#" onclick="switchLng();" class="es">Idioma</a></li>
+                <!-- en -->
+                <li class="r en"><a href="nosotros.html" class="en">About us</a></li>
+                <li class="r en"><a href="servicios.html" class="en">Servicess</a></li>
+                <li class="r en"><a href="contacto.html" class="en">Contact</a></li>
+                <li class="en"><a href="#" onclick="switchLng();"  class="en">Language</a></li>
+            </ul>
+        </header>
+        <main>
+            <!-- Banner -->
+            <section class="banner home content ">
+                <div class="banner-content">
+                    <p class="banner-title white-text es">
+                        Creación e innovación
+                    </p>
+                    <p class="banner-title white-text en">
+                        Creation and Innovation
+                    </p>
+                    <span class="line"></span>
+                    <p class="banner-paragraph white-text es">
+                        Mechanical Integrity and Reliability Services (MIRS) provee soluciones integrales de ingeniería a través de un personal altamente calificado y la aplicación de técnicas especializadas en la obtención de resultados en diseño, análisis, evaluación y monitoreo de instalaciones dentro del sector energético
+                    </p>
+                    <p class="banner-paragraph white-text en">
+                            Mechanical Integrity and Reliability Services (MIRS) provides integral engineering solutions through our specialized techniques and highly qualified personnel for obtaining design, analysis, evaluation and tracking results for energy facilities
+                    </p>
+                    <button href="#" class="banner-button white-text es">SABER MÁS</button>
+                    <button href="#" class="banner-button white-text en">LEARN MORE</button>
+                </div>
+            </section>
+            <!-- caracteristicas -->
+            <section class="section-height">
+                <div class="section-content">
+                    <p class="section-title black-text es">Nos caracterizamos por</p>
+                    <p class="section-title black-text en">We are acknowledged for</p>
+                    <div class="section-flex">
+                        <div class="icon-text">
+                            <img src="assets/images/icons/rect-ngulo-1-copia-2.png"
+                            srcset="assets/images/icons/rect-ngulo-1-copia-2@2x.png 2x,
+                                    assets/images/icons/rect-ngulo-1-copia-2@3x.png 3x"
+                            class="Rectngulo-1-copia-2">
+                            <p class="es">
+                                Servicio al cliente: <br> Respondemos las dudas de nuestros clientes con claridad y eficiencia
+                            </p>
+                            <p class="en">
+                                Customer Service: <br> Certain and well-defined answers to all questions/needsfrom our customers                                         
+                            </p>
+                        </div>
+                        <div id="icon-calidad" class="icon-text">
+                            <img src="assets/images/icons/2.png"
+                            srcset="assets/images/icons/rect-ngulo-1-copia@2x.png 2x,
+                                    assets/images/icons/rect-ngulo-1-copia@3x.png 3x"
+                            class="Rectngulo-1-copia">
+                            <p class="es">
+                                Calidad: <br> Prestamos un servicio de calidad a cambio de la menor inversión posible
+                            </p>
+                            <p class="en">
+                                Quality: <br> Top-Quality services with the lowest investment
+                            </p>
+                        </div>
+                        <div class="icon-text">
+                            <img src="assets/images/icons/rect-ngulo-1.png"
+                            srcset="assets/images/icons/rect-ngulo-1@2x.png 2x,
+                            assets/images/icons/rect-ngulo-1@3x.png 3x"
+                            class="">
+                            <p class="es">
+                                Responsabilidad:<br> Valoramos el tiempo de nuestros clientes, cumpliendo nuestras metas en el tiempo establecido
+                            </p>
+                            <p class="en">
+                                Responsibility: <br> We value our customer’s time, accomplishing established objectives on time
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="experiencia">
+                    <p class="section-title white-text es center-align">Experiencias</p>
+                    <p class="section-title white-text en center-align">Company experience </p>
+                    <div class="section-div-vertical ">  
+                            <div class="section-div-horizontal">
+                                <p class="white-text es"><span class="negritas">Emisiones Acústicas en los Tanques de Almacenamiento de Crudo,</span> TAEJ, 2013.</p>
+                                <p class="white-text es"><span class="negritas">Escaneo Láser de los Tambores de Coquización Retardada,</span>Petrocedeño, 2014.</p>
+                                <p class="white-text es"><span class="negritas">Análisis de la Severidad del Abultamiento de los Tambores de Coquización Retardada,</span>  Petrocedeño, 2014</p>
+                                <p class="white-text es"><span class="negritas">Instalación de Sistema de Monitoreo Continuo en los Tambores de Coquización Retardada,</span>  Petrocedeño, 2014.</p>
+                                <p class="white-text es"><span class="negritas">Análisis de Vida Remanente en Tambores de Coquización Retardada,</span>  Petrocedeño, 2014-2017.</p>
+                                <p class="white-text es"><span class="negritas">Escaneo Láser de la Estructura de los Tambores de Coquización Retardada,</span>  Petropiar, 2015.</p>
+                                <p class="white-text es"><span class="negritas">Monitoreo y Análisis de Vibraciones de la Estructura de los Tambores de Coquización Retardada,</span>  Petropiar, 2015.</p>
+                                <p class="white-text en"><span class="negritas">Acoustic emissions of petroleum storage tanks </span>for TAEJ in 2013. </p>
+                                <p class="white-text en"><span class="negritas">Laser and video scanning of delayed coking units/drums </span>from the crude oil flow company Petrocedeño in 2014 </p>
+                                <p class="white-text en"><span class="negritas">Analysis of the bulking severity in the delayed coking drums/units </span>from the crude oil flow company Petrocedeño in 2014.  </p>
+                                <p class="white-text en"><span class="negritas">Installation of continuous monitoring system in delayed coking drums/units </span>from the crude oil flow company Petrocedeño in 2014.  </p>
+                                <p class="white-text en"><span class="negritas">Remaining life assessment of the delayed coking drums/units </span>from Petropiar between 2014 and 2017.  </p>
+                                <p class="white-text en"><span class="negritas">Laser scanning of the delayed coking drums/units structures</span>from Petropiar in 2015. </p>
+                                <p class="white-text en"><span class="negritas">Monitoring and Vibration testing in the coking delayed units/drums </span>from Petropiar in 2015. </p>
+                            </div>
+                            <div class="section-div-horizontal">
+                                <p class="white-text es"><span class="negritas">Escaneo Láser de los Tambores de Coquización Retardada,</span> Petropiar, 2015.</p>
+                                <p class="white-text es"><span class="negritas">Análisis de la Severidad del Abultamiento de los Tambores de Coquización Retardada, </span> Petropiar, 2015. </p>
+                                <p class="white-text es"><span class="negritas">Toma de muestras tipo “Scoop” en los Tambores de Coquización Retardada</span> Petropiar, 2016. </p>
+                                <p class="white-text es"><span class="negritas">Escaneo Láser de los Tambores de Coquización Retardada</span> Petro SanFelix, 2016.</p>
+                                <p class="white-text es"><span class="negritas">Análisis de la Severidad del Abultamiento de los Tambores de Coquización Retardada, </span> Petro SanFelix, 2016.</p>
+                                <p class="white-text es"><span class="negritas">Análisis de Verticalidad y Redondez de los Tambores de Coquización Retardada</span> Petropiar, 2017.</p>
+                                <p class="white-text en"><span class="negritas">Laser scanning of the delayed coking units </span>from Petropiar in 2015. </p>
+                                <p class="white-text en"><span class="negritas">Analysis of the bulking severity in the delayed coking drums/units </span>from Petropiar in 2015 </p>
+                                <p class="white-text en"><span class="negritas">Scoop sampling in the delayed coking units/drums </span>from Petropiar, 2016 </p>
+                                <p class="white-text en"><span class="negritas">Laser scanning of the delayed coking units/drum</span>from Petro SanFelix in 2016.  </p>
+                                <p class="white-text en"><span class="negritas">Analysis of the bulking severity in the delayed coking drums/units </span>from Petro San Felix, 2016 </p>
+                                <p class="white-text en"><span class="negritas">Roundness and verticality analysis of the delayed coking drums/units </span>from Petropiar, 2017 </p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <span>
+                    <img src="assets/images/icons/capa-4-copia.png"
+                    srcset="assets/images/icons/capa-4-copia@2x.png 2x,
+                            assets/images/icons/capa-4-copia@3x.png 3x"
+                    class="Capa-4-copia">
+                </span>
+                <p class="es white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, Todos los derechos reservados
+                </p>
+                <p class="en white-text">
+                    Copyright © Mechanical Integrity and Realiability Services 2017, All rights reserved
+                </p>
+        </footer>
+    </body>
+</html>
