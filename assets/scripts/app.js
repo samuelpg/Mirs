@@ -1,6 +1,12 @@
 $( document ).ready(function(){
     $(".button-collapse").sideNav();
 
+    $('.learn-more-btn').on('click tap', function(){
+        $('html, body').animate({
+             scrollTop: (500)
+         }, 500);
+    });
+
     //contacto    
     var $name = $("#NombreyApellido");
     var $email = $("#email");
