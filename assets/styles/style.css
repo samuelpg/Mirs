@@ -1,10 +1,9 @@
 /*ROBOTO */
-@font-face {
-    font-family: roboto;
-    src: url("../../fonts/roboto/Roboto-Regular.woff");
-}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 a, p, h1, h2, h3, button{
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
 }
 /*lenguajes*/
 .es{
@@ -147,10 +146,11 @@ ul.a > li {
     max-width: 100px;
 }
 .section-title{
-    font-size: 22px;
+    font-size: 22px !important;
 }
 .section-justify{
-    text-align: justify;
+    text-justify: inter-word;
+    text-align: left;
     margin: 0px;
 }
 .section-justify > li{
@@ -238,7 +238,7 @@ form .contacto-field{
 
 form .contacto-field .contacto-img{
     margin-left: -1px;
-    width: 61px;
+    width: 60px;
 }
 
 form .contacto-field .contacto-input{
@@ -291,14 +291,34 @@ input::-moz-placeholder { /* Firefox 18- */
     font-size: 24px;
     margin-bottom: 20px;
 }
+.hideb, .hideb-2{
+    margin: 0 auto;
+    width: 380px;
+    display: block;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.show{
+    opacity: 1;
+}
+
 .material-icons{
     font-size: 12px;
 }
 p{
     font-size: 16px;
 }
+/*copyright*/
+.copyright{
+    font-size: 12px;
+}
+
 /* pantallas mas grandes */
+
 /* tablet */
+
 @media screen and (min-width:601px){
     .logo{
         float: none;
@@ -439,6 +459,7 @@ p{
     .icon-text{
         max-width: 30%;
         font-size: 18px;
+        margin-bottom: 0px;
     }
     .icon-text > img{
         height: 147px;
@@ -517,6 +538,9 @@ p{
     .section-div-vertical{
         display: flex;
         flex-direction: row;
+    }
+    .form .contacto-field .contacto-img{
+        width: 61px;
     }
     /*experiencia*/
     .experiencia{
